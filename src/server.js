@@ -21,7 +21,7 @@ export const start = async () => {
   try {
     await connect()
     app.listen(port, () => {
-      console.log('Api server is running ')
+      console.log('Api server is running at port 5050 ')
     })
   } catch (e) {
     console.error(e)
