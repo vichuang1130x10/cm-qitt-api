@@ -1,5 +1,5 @@
 // temporarily set the date to 2020-01-01, it will be update in the futures
-const dateString = '2020-01-01 00:00:00.000'
+const dateString = '2021-01-01 00:00:00.000'
 
 export const fetchCmData = model => async (req, res) => {
   try {
