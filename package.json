@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mssql": "^6.2.3",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "cuid": "^2.1.4",
@@ -19,7 +18,9 @@
     "jsonwebtoken": "^8.4.0",
     "lodash": "^4.17.11",
     "mongoose": "^5.3.13",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "mssql": "^6.2.3",
+    "tedious": "^11.0.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",

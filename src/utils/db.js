@@ -1,6 +1,8 @@
 import sql from 'mssql'
 import { config } from '../config'
 
+import { Connection } from 'tedious'
+
 export const connect = (mssqlConfig = config) => {
-  return sql.connect(mssqlConfig)
+  return new Connection(mssqlConfig)
 }
